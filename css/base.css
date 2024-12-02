@@ -1,0 +1,25 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ ul li {
+    list-style: none;
+ }
+
+ .w {
+    width: 953px;
+    margin: 0 auto;
+ }
+ 
+ .clearfix::after {
+   content: '';
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
