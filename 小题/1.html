@@ -10,9 +10,10 @@
 </body>
     <script>
         function replaceString(a,b,c) {
-            var x = new RegExp(b,'g');
-            var n = a.replace(RegExp,c);
-            return n;
+            if( a && b) {
+                return a.split(b).join(c);
+            }
+            return a;
         }
         var a = "Hello world";
         var b = "world";
